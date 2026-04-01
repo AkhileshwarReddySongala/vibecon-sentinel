@@ -1,0 +1,68 @@
+[
+  {
+    "id": "4777e129-9e4b-446e-af02-04b661153a3c",
+    "headline": "Fact Extraction Result",
+    "subheadline": "An analytical deep dive into deep tech breakthroughs.",
+    "body_markdown": "# The Next Paradigm: Beyond Quadratic Attention\n             \n*In a recent algorithmic breakthrough, researchers have mitigated the most persistent bottleneck in modern AI\u2014the quadratic scaling of transformer models.*\n\nThe tech industry has long recognized that scaling context windows incurs unsustainable computational costs. However, a newly proposed sub-quadratic attention mechanism using structured state space proxies is poised to upend this dynamic. By achieving O(N log N) complexity, training expenditures for multi-million token contexts can be reduced by nearly 40%. \n\nThis is not merely a technical curiosity; it has profound economic implications for major cloud providers and AI research labs, fundamentally shifting where computational resources will be deployed over the next decade. Meanwhile, the regulatory landscape is watching closely...\n",
+    "niche": "Deep Tech",
+    "published_at": "2026-04-01 05:00:23.626034",
+    "fact_sheet_ref": "group_d0d5350e",
+    "sources_analyzed": 3,
+    "overlapping_signals_merged": 2,
+    "fact_sheet": {
+      "article_id": "group_d0d5350e",
+      "headline": "Fact Extraction Result",
+      "key_entities": [
+        "Researchers",
+        "Policymakers"
+      ],
+      "timeline_events": [
+        "Recent Discovery",
+        "Upcoming Legislation"
+      ],
+      "core_claims": [
+        "Reduces training costs 40%",
+        "Poses security risks if unrestricted"
+      ],
+      "supporting_evidence": [
+        "State space proxies",
+        "10^25 FLOP threshold"
+      ],
+      "credibility_score": 92
+    },
+    "virlo_enrichment_data": null
+  },
+  {
+    "id": "3169839d-88ad-4607-82e9-93edd3c4346b",
+    "headline": "Fact Extraction Result",
+    "subheadline": "An analytical deep dive into biotech breakthroughs.",
+    "body_markdown": "# The Next Paradigm: Beyond Quadratic Attention\n             \n*In a recent algorithmic breakthrough, researchers have mitigated the most persistent bottleneck in modern AI\u2014the quadratic scaling of transformer models.*\n\nThe tech industry has long recognized that scaling context windows incurs unsustainable computational costs. However, a newly proposed sub-quadratic attention mechanism using structured state space proxies is poised to upend this dynamic. By achieving O(N log N) complexity, training expenditures for multi-million token contexts can be reduced by nearly 40%. \n\nThis is not merely a technical curiosity; it has profound economic implications for major cloud providers and AI research labs, fundamentally shifting where computational resources will be deployed over the next decade. Meanwhile, the regulatory landscape is watching closely...\n",
+    "niche": "Biotech",
+    "published_at": "2026-04-01 05:00:24.924699",
+    "fact_sheet_ref": "group_c12b9b00",
+    "sources_analyzed": 3,
+    "overlapping_signals_merged": 2,
+    "fact_sheet": {
+      "article_id": "group_c12b9b00",
+      "headline": "Fact Extraction Result",
+      "key_entities": [
+        "Researchers",
+        "Policymakers"
+      ],
+      "timeline_events": [
+        "Recent Discovery",
+        "Upcoming Legislation"
+      ],
+      "core_claims": [
+        "Reduces training costs 40%",
+        "Poses security risks if unrestricted"
+      ],
+      "supporting_evidence": [
+        "State space proxies",
+        "10^25 FLOP threshold"
+      ],
+      "credibility_score": 92
+    },
+    "virlo_enrichment_data": null
+  }
+]

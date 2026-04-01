@@ -1,0 +1,24 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database (keep this out of source control if it changes often)
+# However, we are tracking database.json to serve initial demo articles if the API fails, 
+# so we will NOT ignore database.json here right now. If it gets big, uncomment below:
+# database.json
+
+# Tooling
+.vscode/
+.idea/
+*.swp
+.DS_Store
