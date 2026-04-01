@@ -2,6 +2,7 @@ import os
 import json
 from fastapi import FastAPI, UploadFile, BackgroundTasks
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
 from models import EditorialArticle
 from typing import List, Optional
@@ -16,6 +17,11 @@ try:
     app.mount("/static", StaticFiles(directory="static"), name="static")
 except RuntimeError:
     print("Warning: /static directory does not exist yet. Create it for the frontend assets.")
+
+@app.get("/")
+def read_root():
+    """Redirects the base URL to our frontend dash."""
+    return RedirectResponse(url="/static/index.html")
 
 @app.get("/api/articles", response_model=List[EditorialArticle])
 def get_articles(niche: Optional[str] = None):
